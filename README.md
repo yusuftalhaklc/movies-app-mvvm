@@ -13,6 +13,7 @@ Retrofit ✔
 
 Glide ✔
 
+Lottie Animation ✔
 </pre>
 
 
