@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.moviesapp.R
 import com.example.moviesapp.adapter.MoviesModelAdapter
@@ -46,6 +47,9 @@ class DetailsFragment : Fragment() {
             val id = DetailsFragmentArgs.fromBundle(it).movieID
             viewModel.getData(id)
             viewModel.getSimilar(id)
+        }
+        detailBackButton.setOnClickListener{
+            Navigation.findNavController(view).popBackStack()
         }
 
 

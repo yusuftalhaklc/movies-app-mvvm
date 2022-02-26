@@ -10,5 +10,5 @@
     <color name="background_purple">#17082A</color>
     <color name="rate_color">#F79E44</color>
     <color name="overview_color">#BABABA</color>
-    <color name="shimmer_color">#F9F7F8</color>
+    <color name="shimmerColor">#C2C2C2</color>
 </resources>

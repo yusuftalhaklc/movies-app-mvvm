@@ -6,6 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+
+
     <ProgressBar
         android:id="@+id/detailLoadingBar"
         android:visibility="visible"
@@ -15,6 +18,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+
     <TextView
         android:id="@+id/detailErrorTextView"
         android:text="@string/errortext"
@@ -37,6 +41,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+
         <LinearLayout
             android:id="@+id/mainView"
             android:layout_width="match_parent"
@@ -52,11 +57,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="620dp">
 
+
+
                 <ImageView
                     android:id="@+id/detailImageView"
                     android:layout_width="match_parent"
                     android:layout_height="620dp"
                     android:src="@drawable/poster" />
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/detailBackButton"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    app:riv_corner_radius="10dp"
+                    android:alpha="0.4"
+                    android:src="@drawable/back"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <FrameLayout
                     android:layout_width="match_parent"
