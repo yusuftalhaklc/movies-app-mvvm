@@ -14,6 +14,8 @@ Retrofit ✔
 Glide ✔
 
 Lottie Animation ✔
+
+Facebook Shimmer ✔
 </pre>
 
 
