@@ -13,8 +13,9 @@ Retrofit ✔
 
 Glide ✔
 
+Lottie Animation ✔
 </pre>
 
 
-https://user-images.githubusercontent.com/46709263/155400286-95daa949-370b-45a5-b916-684d1a4bbe4f.mp4
+https://user-images.githubusercontent.com/46709263/155849322-a9d722ae-8c30-475f-9d79-e5057228a9c0.mp4
 
